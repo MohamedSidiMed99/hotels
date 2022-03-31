@@ -1,0 +1,575 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: poppins;
+    background: #F2F5F5;
+}
+.header
+{
+    width: 100%;
+    background:#1f022bd7;
+    position: fixed;
+    z-index: 100;
+  
+}
+.header .head 
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px ;
+}
+.header .logo
+{
+    flex: 1;
+    display: flex;
+}
+.header .logo .name
+{
+    margin: 0 10px;   
+}
+.header .logo h3
+{
+    color: #fff;
+    margin-top: 3px;
+}
+.header .logo img 
+{
+    width: 30px;
+}
+.header .menu
+{
+    flex: 1;
+    text-align: center;
+}
+.header .menu li 
+{
+    display: inline-block;
+    margin: 5px 10px;
+}
+.header .menu li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.header .menu li a:hover
+{
+    color:#b0aeb9 ;
+    transition: 0.6s;
+}
+/*---------------home-----------------*/
+.home
+{
+    background-image: url("../img/h1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+  
+   
+}
+.shadow
+{
+    background-color: rgba(17, 16, 16, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.home .home-text
+{
+    height: 300px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.home .home-text p
+{
+    margin-top: 150px;
+    margin-bottom: 20px;
+   font-size: 25px;
+   font-weight: bold;
+   color: #fff;
+}
+.home .home-text button
+{
+    padding: 10px 20px;
+   font-size: 15px;
+   font-weight: bold;
+   background:linear-gradient(-45deg,#E73C7E,#2305AB);
+   color: #fff;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.home .home-text button:hover 
+{
+    background-color: rgb(47, 47, 155);
+    transition: 0.6s;
+}
+/*-------------------destination--------------------------------*/
+.destination
+{
+    width: 100%;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+}
+.destination .dest 
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+   
+    padding: 10px;
+}
+.destination .dest form 
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.destination .dest form .col
+{
+    flex: 1;
+    
+}
+.destination .dest form .col label
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+.destination .dest form .col .text
+{
+    width: 90%;
+    padding-left: 10px;
+    margin:10px auto;
+    height: 30px;
+    outline: none;
+    
+}
+.destination .dest form .col .btn
+{
+    width: 90%;
+    margin:29px auto;
+    height: 34px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: #2305AB;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+/*-------------------explore--------------------------------*/
+.container
+{
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+.container .explore .head 
+{
+    text-align: center;
+    height: 60px;
+    padding: 30px 0;
+}
+.container .explore .head  h2 
+{
+    color: #000080;
+    margin-bottom: 20px;
+}
+.container .explore .head  p
+{
+    color: #111;
+    
+}
+.container .explore .down 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0;
+   
+}
+.container .explore .down  .col 
+{
+    flex-basis: 20px;
+    margin: 10px;
+    height: 200px;
+    min-width: 200px;
+    border: solid 1px #aaa;
+    background-image:url("../img/h4.jpg") ;
+    background-size: cover;
+}
+.container .explore .shadow
+{
+    background: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    height: 100%;
+}
+.container .explore .down  .col h3 
+{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container .explore .down  .col p
+{
+    margin: 6px 0;
+    color: #fff;
+     font-size: 16px;
+    font-weight: bold;
+}
+.container .explore .down  .col button
+{
+    
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/*----------------------the paradise--------------------------------*/
+.paradise
+{
+    width: 100%;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+    padding: 20px 0;
+}
+.paradise .par 
+{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+    text-align: center;
+}
+.paradise .par span
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #EE7752;
+    color: #fff;
+    padding: 5px;
+}
+.paradise .par h2
+{
+    margin: 10px 0;
+    color: #111;
+}
+.paradise .par p
+{
+    margin: 10px auto;
+    
+    color: #111;
+    width: 60%;
+}
+.paradise .par button
+{
+    width: 100px;
+    height: 30px;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 10px;
+}
+/*-----------------------lexurious--------------------*/
+.lexurious
+{
+    width: 100%;
+}
+.lexurious h2 
+{
+    text-align: center;
+    margin: 30px 0;
+}
+.lexurious .lex 
+{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: #aaa solid 1px;
+}
+.lexurious .row
+{
+    flex-basis: 35%;
+    min-width: 350px;
+    margin: 10px;
+    width: 100%; 
+    display: flex;
+    border: #aaa solid 1px;
+}
+.lexurious .row .col img 
+{
+    width: 100%;
+    height: 100%;
+}
+.lexurious .row .col 
+{
+    flex-basis: 25%;
+    min-width: 150px;
+    height: 180px;
+    position: relative;
+}
+.lexurious .row .info
+{
+    flex-basis: 45%;
+    min-width: 150px;
+}
+.lexurious .row .col  .shadow2
+{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.082);
+    position: absolute;
+    top: 0px;
+}
+.lexurious .row .col  .shadow2 h4 
+{
+    margin-top: 130px;
+    width: 70%;
+    padding: 5px 0;
+    text-align: center;
+    background:#EE7752;
+    color: #fff;
+}
+.lexurious .row .info h4
+{
+    color: #ff7700;
+    margin: 10px 0 10px 10px;
+
+}
+.lexurious .row .info h4 span 
+{
+    font-size: 13px;
+    color: #111;
+}
+.lexurious .row .info p
+{
+    width: 100%;
+    margin: 10px;
+}
+
+.lexurious .row .info button
+{
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 40px 25px 10px;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+    
+}
+/*--------------------------contact -------------------------------*/
+.contact
+{
+    width: 100%;
+}
+.contact h2 
+{
+    text-align: center;
+    margin: 40px 0;
+}
+.contact .row
+{
+    max-width: 800px;
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .row img 
+{
+    width: 250px;
+
+}
+.contact .row .col
+{
+    flex: 50%;
+    text-align: center;
+
+}
+.contact .row .col1
+{
+    flex: 50%;
+    background:linear-gradient(-45deg,#E73C7E,#2305AB);
+}
+.contact .row .col1 form
+{
+    width: 95%;
+    padding: 10px;
+    margin:10p auto;
+    border: #aaa solid 1px;
+}
+.contact .row .col1 .inp1
+{
+    width: 100%;
+   
+}
+.contact .row .col1 .inp1 .tx1 
+{
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-left: 10px;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: #fff;
+}
+.contact .row .col1  .tx2 
+{
+    width: 90%;
+    margin: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: #fff;
+}
+.contact .row .col1 textarea 
+{
+    width: 90%;
+    margin:10px auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    height: 120px;
+    border: none;
+    outline: none;
+    border-bottom:1px #aaa solid ;
+    background: none;
+    color: #fff;
+}
+.contact .row .col1 button
+{
+    width: 99%;
+    margin: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #ff7700;
+    color: #fff;
+}
+.contact .row .col1 button:hover
+{
+    background: #d67b2b;
+    transition: 0.6s;
+}
+/*---------------------footer--------------------*/
+.footer 
+{
+    background:#1f022b;
+    width: 100%;
+}
+.footer .row 
+{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.footer .row .col 
+{
+    flex-basis: 50%;
+ 
+    
+}
+.footer  .row .logo 
+{
+    display: flex;
+    margin-left: 20px;
+}
+.footer  .row .logo .name
+{
+  color: #fff;
+}
+.footer  .row .logo .img
+{
+    margin-left: 10px;
+}
+.footer  .row .logo .img img 
+{
+    width: 30px;
+}
+.footer .row .col .about 
+{
+    color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+}
+.footer .row .col .h3 
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.footer .row .col .social 
+{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+   
+    
+}
+.footer .row .col .social .soc1
+{
+   flex-basis: 10px;
+    text-align: center;
+    color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px;
+}
+.footer .row .col .social .soc1 img 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 10px;
+}
